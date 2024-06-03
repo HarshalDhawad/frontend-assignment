@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.fontt-for-nav {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+}
+
+#nav {
+    margin: 20px 40px 0 40px;
+}
+
+/* section-1 */
+
+.sec-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(sec1.png) no-repeat center center / cover;
+    height: 960px;
+}
+
+.sec-1 .content-1 {
+    margin-left: 150px;
+    width: 42%;
+    height: 700px;
+}
+
+.sec-1 .content-1 h1 {
+    font-size: 4.2rem;
+    margin-bottom: 30px;
+    font-stretch: condensed;
+    color: black;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    -webkit-text-stroke: 2px;
+}
+
+.sec-1 .content-1 p {
+    margin-bottom: 30px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 0.9em;
+    margin-left: 15px;
+}
+
+.sec-1 .content-1 .sec1btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-1 .content-1 .sec1img {
+    height: 450px;
+}
+
+/* section-2 */
+
+.sec2 {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 150px;
+    background: url(red\ back.png) no-repeat right -150px center;
+}
+
+.sec2 .content {
+    margin-right: 50px;
+}
+
+.sec2 .content h4 {
+    color: rgb(255, 85, 85);
+    font-stretch: wider;
+    font-size: 1.3rem;
+}
+
+.sec2 .content h1 {
+    font-weight: bolder;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    -webkit-text-stroke: 2px;
+}
+
+.sec2 .content .in-content {
+    margin-bottom: 20px;
+}
+
+.sec2 .content .in-content h3 {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.sec2 .content .in-content p {
+    color: grey;
+    font-size: 1.2rem;
+}
+
+/* section-3 */
+
+.sec3 {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 150px;
+}
+
+.sec3 .content {
+    margin-right: 50px;
+}
+
+.sec3 .content h4 {
+    color: rgb(255, 85, 85);
+    font-stretch: wider;
+    font-size: 1.3rem;
+}
+
+.sec3 .content h1 {
+    font-weight: bolder;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 50px;
+    font-size: 4rem;
+    -webkit-text-stroke: 2px;
+}
+
+.sec3 .content h3 {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+
+.sec3 .content p {
+    color: grey;
+    font-size: 1.2rem;
+}
+
+/* section-4 */
+
+.sec4 {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 80px;
+}
+
+.sec4 .content {
+    margin-right: 50px;
+}
+
+.sec4 .content h4 {
+    color: rgb(255, 85, 85);
+    font-stretch: wider;
+    font-size: 1.3rem;
+}
+
+.sec4 .content h1 {
+    font-weight: bolder;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 50px;
+    font-size: 4rem;
+    -webkit-text-stroke: 2px;
+}
+
+.sec4 .content h3 {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+
+.sec4 .content p {
+    color: grey;
+    font-size: 1.2rem;
+}
+
+/* section-5 */
+
+.sec5 {
+    background: url(sec5img.png) no-repeat;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 0 80px;
+}
+
+.sec5 .head {
+    margin: 150px 0 50px 0;
+    text-align: center;
+    width: 40%;
+}
+
+.sec5 .head h4 {
+    font-stretch: ultra-expanded;
+    font-size: 1.3rem;
+}
+
+.sec5 .head h1 {
+    font-weight: bolder;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    -webkit-text-stroke: 2px;
+}
+
+.sec5 .content {
+    width: 40%;
+    margin: 0 300px 0 900px;
+}
+
+.sec5 .content h2 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.sec5 .content p {
+    color: grey;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+}
+
+.sec5 .content h3 {
+    font-size: 1em;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
+/* section-6 */
+
+.sec6 {
+    height: 1000px;
+    margin: 0 0 0 150px;
+}
+
+.sec6 .content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sec6 .content .in-cont {
+    width: 100%;
+    margin-right: 90px;
+}
+
+.sec6 .content .in-cont .red {
+    background-color: rgb(255, 85, 85);
+    padding: 35px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.sec6 .content .in-cont .nonred {
+    padding: 35px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.sec6 .content .in-cont .red h2 {
+    color: white;
+    font-weight: bolder;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sec6 .content .in-cont .nonred h2 {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sec6 .content .in-cont .nonred p {
+    color: grey;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.sec6 .content .in-cont .red p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.sec6 .head h4 {
+    color: rgb(255, 85, 85);
+}
+
+.sec6 .head h1 {
+    font-weight: bolder;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    -webkit-text-stroke: 2px;
+}
+
+/* section-7 */
+
+.sec7 {
+    height: 1000px;
+    background: url(sec7img.png)no-repeat center;
+}
+
+/* section-8 */
+
+.sec8 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 200px;
+}
+
+.sec8 .foot h3,
+.sec8 .foot h5 {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+}
+
+
+
+.butto {
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer {
+    margin-left: 150px;
+}
+
+/* section-9 */
+
+.sec9{
+    background: url(footer.png) no-repeat center;
+    height: 200px;
+}
+
+/* Media Queries */
+
